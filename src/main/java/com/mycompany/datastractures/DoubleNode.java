@@ -1,0 +1,24 @@
+package com.mycompany.datastractures;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author ADMIN
+ */
+public class DoubleNode<T>{
+T value ;
+DoubleNode next ;
+DoubleNode prevous ;
+
+    public DoubleNode(T value, DoubleNode next, DoubleNode prevous) {
+        this.value = value;
+        this.next = next;
+        this.prevous = prevous;
+    }
+
+   
+}
